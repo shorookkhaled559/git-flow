@@ -1,7 +1,11 @@
+import NavBar from '@/components/NavBar'
 import React from 'react'
 
 export default function About() {
   return (
-    <div>About</div>
+    <>
+        <NavBar />
+        <div>Section About</div>
+    </>
   )
 }

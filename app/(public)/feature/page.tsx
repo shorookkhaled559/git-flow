@@ -1,7 +1,11 @@
+import NavBar from '@/components/NavBar'
 import React from 'react'
 
 export default function Feature() {
   return (
-    <div>Feature</div>
+    <>
+        <NavBar />
+        <div>Section Feature</div>
+    </>
   )
 }
