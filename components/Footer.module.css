@@ -1,0 +1,97 @@
+.footer {
+  background: linear-gradient(180deg, #0f1724 0%, #071028 100%);
+  color: #cbd5e1;
+  padding: 2rem 1rem;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.tagline {
+  font-size: 0.875rem;
+  color: #94a3b8;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.links a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.links a:hover {
+  background: rgba(255, 255, 255, 0.03);
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 0.35rem;
+  border-radius: 6px;
+}
+
+.icon:hover {
+  background: rgba(255, 255, 255, 0.03);
+  color: #fff;
+}
+
+.copy {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .links {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .social {
+    order: 2;
+    margin-top: 0.5rem;
+  }
+}
